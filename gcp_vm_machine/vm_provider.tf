@@ -8,6 +8,6 @@ terraform {
   }
 }
 provider "google" {
-  project = "devops-automation-287700"
+  project = var.project_name
   region  = "us-central1"
 }

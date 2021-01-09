@@ -1,3 +1,9 @@
+variable project_name {
+  type        = string
+  description = "Name of the project"
+}
+
+
 variable vm_name {
   type        = string
   description = "Name of the VM machine"
