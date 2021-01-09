@@ -54,3 +54,8 @@ variable "rg_name" {
     error_message = "The rg_name value must be valid, starting with \"rg-\"."
   }
 }
+
+variable project_name {
+  type        = string
+  description = "Name of the project"
+}
