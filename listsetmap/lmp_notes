@@ -1,0 +1,16 @@
+What lists, maps, and sets have in common is that they are all collections of values where all the values have the same type.
+
+Lists are collections where those values are defined in a particular order and assigned numeric indices starting at zero, 
+so we can say that each value is identified by a number.
+
+Maps are collections where those values are not in a particular order but are each assigned a key string. 
+We can therefore say that each value is identified by a string.
+
+Sets are, similar to maps, collections where the values are in no particular order, 
+but unlike maps the values are not assigned a key string. Instead, the values identify themselve
+####################
+Notice that for the set, each value is identified by itself, not by either a number or a separate key string.
+
+Thus the reason you can't index a set with a number is that its elements do not have numbers as their keys. 
+Converting to a list with tolist assigns each of the elements a numeric index, and thus then count.index works 
+to retrieve one of the elements.
